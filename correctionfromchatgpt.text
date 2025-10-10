@@ -1,0 +1,37 @@
+<div class="grid grid-cols-[1fr_1fr] w-full max-w-6xl mx-auto gap-x-12 py-16">
+  <!-- Text side -->
+  <div class="flex flex-col justify-center px-8">
+    <h1 class="text-[48px] font-bold mb-6">Full-Service <br>Build Offer</h1>
+    <p class="mb-8 pr-10">Lorem ipsum dolor sit amet, …</p>
+    <p>Image from <a class="text-[#a7bbb4]" href="#">freepik</a></p>
+  </div>
+
+  <!-- Image side -->
+  <div class="flex justify-center items-start px-8">
+    <img class="max-w-full object-contain pb-6" 
+         src="https://...image..." 
+         alt="Offer image">
+  </div>
+</div>
+What changed & why:
+grid-cols-[1fr_1fr] → two equal flexible columns (so you don’t have to guess exact widths).
+
+max-w-6xl mx-auto → caps overall width and centers the grid container.
+
+gap-x-12 → space between columns.
+
+py-16 → vertical padding top & bottom so image/text aren’t flush.
+
+On the text side:
+
+flex flex-col justify-center → vertically center the text content in its cell.
+
+px-8 → padding inside so text doesn’t touch edges.
+
+On the image side:
+
+flex justify-center items-start → start (top) alignment inside cell, and ability to add bottom padding.
+
+pb-6 on image → bottom space is small but present.
+
+max-w-full object-contain → prevents overflow and preserves aspect ratio.
