@@ -7,8 +7,8 @@
     <link href="./output.css" rel="stylesheet">
 </head>
 
-<body class="w-[900px]- h-[744.57px]-">
-<!-- <div class="grid grid-cols-2 justify-items-center">
+<body class="w-[900px]- h-[744.57px]- overflow-x-hidden">
+    <!-- <div class="grid grid-cols-2 justify-items-center">
         <div>
         <img class="w-[130px] h-[78px]" src="./4300058.png" alt="">
         </div>
@@ -18,47 +18,51 @@
     </div> -->
     <div class="flex justify-between mx-[100px] mx-auto- mt-6">
         <div>
-        <img src="./ChatGPT Image Oct 7, 2025, 09_30_11 AM.png" alt="" class="w-[60px] h-[60px] rounded-[50px]">
+            <img src="./ChatGPT Image Oct 7, 2025, 09_30_11 AM.png" alt="" class="w-[60px] h-[60px] rounded-[50px]">
         </div>
-        <div >
-        <a href="#">Home</a>
-        </div>
-    </div>
-    <div class="flex w-11/12 mx-auto justify-between mx-[100px]-">
-        <div class="flex ml-[40px] mt-6 gap-x-10">
-            <img class="w-10 h-10 rounded-full bg-green-200" src="./Facebook.png" alt="">
-            <img class="w-10 h-10 rounded-full bg-green-200" src="./ig.png" alt="">
-            <img class="w-10 h-10 rounded-full bg-green-200" src="./X.png" alt="">
-        </div>
-        <div class="mr-[40px] mt-6">
-            <a href="#"><img class="w-10 h-10 rounded-full ml-[-50px] mb-[-30px] bg-green-200" src="./Phone.webp" alt="">+1(234)7829909</a>
-        </div>
-    </div>
-    <div class="grid grid-cols-2 mt-6 justify-items-between bg-green-800- grid-rows-[250px]- mx-[100px] w-11/12 w-full">
-            <div>
-                 <h1 class="text-black-900 font-bold text-2xl">Construction Services Proposal</h1>
-                <p class="text-black font-bold text-base">
-                    company Name:
-                    <span class="font-normal text-base">Skyline Builders Inc.</span>
-                </p>
-                <p class="text-black font-bold text-text-base">
-                    Adress:
-                    <span class="font-normal text-base">2518 Rockridge Lane, Los Angeles, <br>CA 90039
-                    </span>
-                </p>
-                <p class="text-black font-bold text-text-base">
-                    Phone:
-                    <span class="font-normal text-base">+1(213)987654</span>
-                </p>
-                <p class="text-black font-bold text-text-base">
-                    Email:
-                    <span class="font-normal text-base">info@skylinebuilders.com</span>
-                </p>
-                <p class="text-black font-bold text-text-base">
-                    Website:
-                    <span class="font-normal text-base">www.skylinebuilders.com</span>
-                </p>
+        <div>
+            <div class="sm:flex hidden">
+            <a class="hover:underline hover:text-blue-400 font-bold" href="#">Home</a>
             </div>
+            <img class="sm:hidden flex w-20 h-20 rounded-full" src="./images-removebg-preview.png" alt="">
+        </div>
+    </div>
+    <div class="grid w-11/12 mx-auto justify-items-center mx-[100px]- grid-cols-1 sm:grid-cols-2 gap-x-[250px] ml-[-10px]">
+        <div class="flex-row sm:flex ml-[-40px] mt-6 gap-x-10 content-start ">
+            <a href="#"> <img class=" cursor-pointer w-10 h-10 rounded-full bg-green-200" src="./Facebook.png" alt=""></a>
+            <a href="#"><img class="cursor-pointer w-10 h-10 rounded-full bg-green-200" src="./ig.png" alt=""></a>
+            <a href="#"><img class="cursor-pointer w-10 h-10 rounded-full bg-green-200" src="./X.png" alt=""></a>
+        </div>
+        <div class="mr-[-280px] mt-6 ml-[10px] sm:ml-0">
+            <a href="#"><img class="w-10 h-10 rounded-full ml-[-50px] mb-[-30px] bg-green-200" src="./Phone.webp"
+                    alt="">+1(234)7829909</a>
+        </div>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 mt-6 justify-items-center">
+        <div class="ml-[-80px]">
+            <h1 class="text-black-900 font-bold text-2xl">Construction Services Proposal</h1>
+            <p class="text-black font-bold text-base">
+                company Name:
+                <span class="font-normal text-base">Skyline Builders Inc.</span>
+            </p>
+            <p class="text-black font-bold text-text-base">
+                Adress:
+                <span class="font-normal text-base">2518 Rockridge Lane, Los Angeles, <br>CA 90039
+                </span>
+            </p>
+            <p class="text-black font-bold text-text-base">
+                Phone:
+                <span class="font-normal text-base">+1(213)987654</span>
+            </p>
+            <p class="text-black font-bold text-text-base">
+                Email:
+                <span class="font-normal text-base">info@skylinebuilders.com</span>
+            </p>
+            <p class="text-black font-bold text-text-base">
+                Website:
+                <span class="font-normal text-base">www.skylinebuilders.com</span>
+            </p>
+        </div>
         <div class="mx-h-6xl pb-4">
             <h1 class="text-black font-bold text-2xl">To:</h1>
             <p class="text-black font-bold text-text-base">client Name: <span class="font-normal text-base">Mr. Jonathan
@@ -72,7 +76,7 @@
             <p class="text-black font-bold text-text-base">Proposal Number: <span
                     class="font-normal text-base">SB-0420-2025</span></p>
         </div>
-         <div class="self-start- self-center-">
+        <div class="self-center ml-[90px]">
             <h1 class="text-7xl text-boldextra">Full-Service Build Offer</h1>
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                 elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
@@ -85,9 +89,9 @@
         </div>
     </div>
     </div>
-    <div class="h-40 bg-[#B6CEB4] text-white text-lg font-extrabold pl-7 mt-6 grid grid-rows-[80px] items-center">
-        <div class="mx-18 mt-8">
-            <h3 class="text-5xl">Dear Mr. Greene,</h3>
+    <div class="h-50 sm:h-55 bg-[#B6CEB4] text-white sm:text-lg sm:font-extrabold pl-7 mt-6 items-center">
+        <div class="mx-18 mt-8 grid grid-rows-[400px]- sm:grid-rows-[80px]">
+            <h3 class="text-lg sm:text-5xl ">Dear Mr. Greene,</h3>
             <p>Thank you for considering Skyline Builders Inc. for your
                 construction project. We are pleased <br>to submit our proposal for the provision of construction
                 services
@@ -95,7 +99,7 @@
         </div>
     </div>
     <div
-        class="grid grid-cols-[400px_400px] w-full mx-auto gap-8 justify-evenly mx-18- gap-66 my-8 min-h-screen- grid-rows-[500px]">
+        class="grid grid-cols-[400px_400px]- grid-cols-1 sm:grid-cols-[400px_400px] w-full mx-auto gap-8- justify-evenly mx-18- sm:gap-66 my-8 min-h-screen- grid-rows-[500px]">
         <div class="pl-10">
             <h1 class="text-black text-5xl font-boldextra mb-8">About Us</h1>
             <p class="text-lg">Skyline Builders Inc. is a full-service construction company based in Los Angeles,
@@ -137,29 +141,29 @@
             <p>-Addition of a 2-car garage and backyard deck</p>
         </div>
     </div>
-    <div class="grid grid-cols-[500px_500px] justify-center self-start h-screen- h-full min-w-auto gap-10">
+    <div class="grid grid-cols-1 sm:grid-cols-2 justify-evenly self-start h-screen- h-full min-w-auto gap-10-">
         <div>
-            <img class="h-[300px] w-[470px]" src="./cons1.png" alt="">
+            <img class="h-[300px] w-[500px] sm:w-[550px] mr-[-40px]- ml-[80px]" src="./cons1.png" alt="">
         </div>
         <div>
-            <img class="h-[300px] w-[550px]" src="./cons2.jpg" alt="">
+            <img class="h-[300px] w-[500px] sm:w-[550px] ml-[-40px]- mr-[80px]-" src="./cons2.jpg" alt="">
         </div>
     </div>
-    <div class="flex justify-between mx-6- grid-rows-[400px] min-w-[600]- w-[88%] mx-auto my-6 flex-nowrap">
+    <div class="flex flex-col sm:flex-row justify-between min-w-[600]- w-[88%] mx-auto my-6 flex-nowrap">
         <div class="w-[570px]">
-            <h2 class="text-[48px] font-bold w-[200px]-">Estimated Timeline</h2>
+            <h2 class="text-lg sm:text-[48px] font-bold ">Estimated Timeline</h2>
             <p class="text-lg font-bold">Start Date: <span class="text-base font-normal">June 10, 2025</span></p>
             <p class="text-lg font-bold">Completion Date: <span class="text-base font-normal">October 30, 2025</span>
             </p>
         </div>
         <div class="">
-            <h2 class="text-[48px] font-bold">Budget Estimate</h2>
+            <h2 class="text-lg sm:text-[48px] font-bold">Budget Estimate</h2>
             <p class="text-[18px] font-bold">Total Estimated Cost: <span class="font-normal text-[18px]">$725,000 USD A
                     detailed cost breakdown is attached in the appendix.</span></p>
         </div>
     </div>
     <h2 class="text-[48px] text-[#111111] font-bold- ml-20">Why Choose Us</h2>
-    <div class="grid grid-cols-2 justify-items-center gap-y-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 justify-items-center gap-y-4">
 
         <div class="pt-[10px] pr-[10px] pb-[10px] w-[465px]">
             <img class="w-[64px] h-[64px]" src="./4300058.png" alt="">
@@ -273,19 +277,22 @@
         </p>
     </div>
     <div class="flex justify-around 11/12 mx-auto mt-6">
-    <div class="flex flex-col gap-y-6">
-        <img class="w-20 h-20 rounded-full" src="./ChatGPT Image Oct 7, 2025, 09_30_11 AM.png" alt="">
-        <h2 class="text-2xl font-bold">Contact Us</h2>
-        <p class="text-lg font-bold">Company Name: <span class="font-normal">Skyline Builders Inc.</span></p>
-        <p class="text-lg font-bold">Address: <span class="font-normal">2518 Rockridge Lane, Los Angeles, CA <br>90039</span></p>
-        <p class="text-lg font-bold">Phone: <span class="font-normal">+1(234)7829909</span></p>
-        <p class="text-lg font-bold">Email: <span class="font-normal">patrick20191995@gmail.com</span></p>
-        <p class="text-lg font-bold">Website:<span class="font-normal"> www.rockstart.com</span></p>
+        <div class="flex flex-col gap-y-6">
+            <img class="w-20 h-20 rounded-full" src="./ChatGPT Image Oct 7, 2025, 09_30_11 AM.png" alt="">
+            <h2 class="text-2xl font-bold">Contact Us</h2>
+            <p class="text-lg font-bold">Company Name: <span class="font-normal">Skyline Builders Inc.</span></p>
+            <p class="text-lg font-bold">Address: <span class="font-normal">2518 Rockridge Lane, Los Angeles, CA
+                    <br>90039</span></p>
+            <p class="text-lg font-bold">Phone: <span class="font-normal">+1(234)7829909</span></p>
+            <p class="text-lg font-bold">Email: <span class="font-normal">patrick20191995@gmail.com</span></p>
+            <p class="text-lg font-bold">Website:<span class="font-normal"> www.rockstart.com</span></p>
+        </div>
+        <div>
+            <img class="w-[470px] h-[380px]" src="./building.webp" alt="">
+        </div>
     </div>
-    <div>
-        <img class="w-[470px] h-[380px]" src="./building.webp" alt="">
-    </div>
-    </div>
+    <footer class="flex justify-center text-2xl bg-black font-boldextra text-white h-40 items-center">&copy:2025 Patrick
+        Iradukunda.Alright reserved!</footer>
 
 </body>
 
